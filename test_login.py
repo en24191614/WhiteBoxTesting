@@ -4,8 +4,8 @@ test_cases = [
     ("TC01", "", "1234", "Username required"),
     ("TC02", "admin", "", "Password required"),
     ("TC03", "admin", "1234", "Login successful"),
-    ("TC04", "user", "5678", "Invalid username or password"),
-    ("TC05", "admin", "wrong", "Invalid username or password")
+    ("TC04", "user", "5678", "Invalid login credentials"),
+    ("TC05", "admin", "wrong", "Invalid login credentials")
 ]
 
 for test_id, username, password, expected in test_cases:
